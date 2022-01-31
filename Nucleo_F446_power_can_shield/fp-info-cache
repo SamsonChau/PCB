@@ -1,4 +1,4 @@
-19822706169695132
+19822707198410379
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52170,27 +52170,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-Fuse_custom
-0ZCG-series
-
-
-0
-2
-2
-Fuse_custom
-Keystone_3557-2
-
-
-0
-4
-2
-Fuse_custom
-Littelfuse_122_series
-
-
-0
-4
-2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -73843,6 +73822,13 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 PolyuRobotics
+DC-DC-mp1584_module
+
+
+0
+8
+8
+PolyuRobotics
 Isolated-Can-Transceiver-Module-ISO1050-Module
 
 
@@ -73850,12 +73836,26 @@ Isolated-Can-Transceiver-Module-ISO1050-Module
 8
 8
 PolyuRobotics
+NUCLEO-F446RE
+
+
+0
+76
+76
+PolyuRobotics
 TJA1050_CAN_Module
 
 
 0
 6
 6
+PolyuRobotics
+XT60PW-M20
+
+
+0
+2
+2
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
