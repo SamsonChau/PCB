@@ -1,4 +1,4 @@
-19822707198410379
+19825995527450823
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49335,69 +49335,83 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DCDC_1
+DCDC_Convertor_SX1308
+YAAJ_DCDC_StepUp_SX1308
+
+
+0
+4
+4
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinHeader_Left
 Chinese 4 digit 0.36" LED TM1637 display ; pin header on the left side
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 4
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinHeader_Right
 Chinese 4 digit 0.36" LED TM1637 display ; pin header on the right side
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 4
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinHeaders_Both
 Chinese 4 digit 0.36" LED TM1637 display ; pin header on both sides
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 8
 8
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSocket_Left
 Chinese 4 digit LED 0.36" TM1637 display ; pin header + socket on left sides
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 4
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSocket_Left_Standoffs
 Chinese 4 digit 0.36" LED TM1637 display ; pin header + socket on the left side ; M3x12mm standoffs
 module LED 0.36" display TM1637 4digit 0.36" 7segment dot
 0
 8
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSocket_Right
 Chinese 4 digit LED 0.36" TM1637 display ; pin header + socket on both sides
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 4
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSocket_Right_Standoffs
 Chinese 4 digit LED 0.36" TM1637 display ; pin header + socket on the right side ; M3x12mm standoffs
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 8
 4
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSockets_Both
 Chinese 4 digit LED 0.36" TM1637 display ; pin header + socket on both sides
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 8
 8
-DCDC_1
+DCDC_LED_Convertor
 YAAJ_4_Digit_LED_Display_0.36_Dots_TM1637_PinSockets_Both_Standoffs
 Chinese 4 digit LED 0.36" TM1637 display ; pin header + socket on both sides ; M3x12mm standoffs
 module LED display TM1637 4digit 0.36" 7segment dot
 0
 12
 8
+DCDC_convertor_LM2596
+YAAJ_DCDC_StepDown_LM2596
+
+
+0
+4
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -59324,13 +59338,6 @@ Mounting 4.5mm 9774100982
 0
 8
 1
-NUCLEO-F446RE
-MODULE_NUCLEO-F446RE
-
-
-0
-108
-108
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -73822,6 +73829,13 @@ TO-264-5 Vertical RM 3.81mm
 5
 5
 PolyuRobotics
+Club_logo
+
+
+0
+0
+0
+PolyuRobotics
 DC-DC-mp1584_module
 
 
@@ -73856,6 +73870,20 @@ XT60PW-M20
 0
 2
 2
+PolyuRobotics
+logo
+
+
+0
+0
+0
+PolyuRobotics
+polyurobotics_club_logo
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -84580,17 +84608,3 @@ varistor SIOV
 0
 2
 2
-mid_DCDC2
-YAAJ_DCDC_StepDown_LM2596
-
-
-0
-4
-4
-small_DCDC3
-YAAJ_DCDC_StepUp_SX1308
-
-
-0
-4
-4
