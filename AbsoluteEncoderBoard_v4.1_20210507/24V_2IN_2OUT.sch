@@ -1,0 +1,478 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Isolator:TLP291-4 U11
+U 1 1 60050D83
+P 4550 3400
+F 0 "U11" H 4550 3725 50  0000 C CNN
+F 1 "TLP291-4" H 4550 3634 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 4350 3200 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4" H 4550 3400 50  0001 L CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 60059F5D
+P 3750 3300
+AR Path="/60059F5D" Ref="J?"  Part="1" 
+AR Path="/5FDF536B/60059F5D" Ref="J?"  Part="1" 
+AR Path="/5FED72BB/60059F5D" Ref="J?"  Part="1" 
+AR Path="/600508A4/60059F5D" Ref="J8"  Part="1" 
+F 0 "J8" H 4000 3600 50  0000 C CNN
+F 1 "JST_PH3" H 3900 3500 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3750 3300 50  0001 C CNN
+F 3 "~" H 3750 3300 50  0001 C CNN
+	1    3750 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP291-4 U11
+U 4 1 6007FBDA
+P 6750 4750
+F 0 "U11" H 6750 5075 50  0000 C CNN
+F 1 "TLP291-4" H 6750 4984 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 6550 4550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4" H 6750 4750 50  0001 L CNN
+	4    6750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6007FBE0
+P 7350 4300
+AR Path="/5FED71EE/6007FBE0" Ref="J?"  Part="1" 
+AR Path="/600508A4/6007FBE0" Ref="J11"  Part="1" 
+F 0 "J11" H 7500 4400 50  0000 R CNN
+F 1 "JST_PH2" H 7500 4100 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 7350 4300 50  0001 C CNN
+F 3 "~" H 7350 4300 50  0001 C CNN
+	1    7350 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148WS D20
+U 1 1 6007FBE6
+P 8050 4350
+F 0 "D20" V 8050 4450 50  0000 L CNN
+F 1 "1N5819" V 8150 4450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8050 4175 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 8050 4350 50  0001 C CNN
+	1    8050 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 4650 7150 4400
+$Comp
+L power:GND #PWR096
+U 1 1 6007FBF7
+P 7050 4850
+F 0 "#PWR096" H 7050 4600 50  0001 C CNN
+F 1 "GND" H 7055 4677 50  0000 C CNN
+F 2 "" H 7050 4850 50  0001 C CNN
+F 3 "" H 7050 4850 50  0001 C CNN
+	1    7050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 600877E7
+P 4250 3650
+F 0 "R25" H 4320 3696 50  0000 L CNN
+F 1 "22K" H 4320 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 3650 50  0001 C CNN
+F 3 "~" H 4250 3650 50  0001 C CNN
+	1    4250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 60089136
+P 6300 4850
+F 0 "R30" V 6200 4800 50  0000 L CNN
+F 1 "100R" V 6400 4750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6230 4850 50  0001 C CNN
+F 3 "~" H 6300 4850 50  0001 C CNN
+	1    6300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 6008EB4A
+P 4250 3800
+F 0 "#PWR087" H 4250 3550 50  0001 C CNN
+F 1 "GND" H 4255 3627 50  0000 C CNN
+F 2 "" H 4250 3800 50  0001 C CNN
+F 3 "" H 4250 3800 50  0001 C CNN
+	1    4250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR084
+U 1 1 6008F0C7
+P 3950 3400
+F 0 "#PWR084" H 3950 3150 50  0001 C CNN
+F 1 "GND" H 3955 3227 50  0000 C CNN
+F 2 "" H 3950 3400 50  0001 C CNN
+F 3 "" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR089
+U 1 1 6008FDE9
+P 4850 3500
+F 0 "#PWR089" H 4850 3250 50  0001 C CNN
+F 1 "GND" H 4855 3327 50  0000 C CNN
+F 2 "" H 4850 3500 50  0001 C CNN
+F 3 "" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	1    0    0    -1  
+$EndComp
+Text HLabel 4950 3300 2    50   Output ~ 0
+IN1
+Text HLabel 6150 4850 0    50   Input ~ 0
+OUT2
+$Comp
+L Device:LED D?
+U 1 1 600B52A9
+P 4100 3300
+AR Path="/600B52A9" Ref="D?"  Part="1" 
+AR Path="/5FDF536B/600B52A9" Ref="D?"  Part="1" 
+AR Path="/5FED72BB/600B52A9" Ref="D?"  Part="1" 
+AR Path="/600508A4/600B52A9" Ref="D15"  Part="1" 
+F 0 "D15" H 4200 3220 50  0000 R CNN
+F 1 "G" H 4200 3150 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 3300 50  0001 C CNN
+F 3 "~" H 4100 3300 50  0001 C CNN
+	1    4100 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Isolator:TLP291-4 U11
+U 2 1 600DB909
+P 4550 4800
+F 0 "U11" H 4550 5125 50  0000 C CNN
+F 1 "TLP291-4" H 4550 5034 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 4350 4600 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4" H 4550 4800 50  0001 L CNN
+	2    4550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 600DB90F
+P 3750 4700
+AR Path="/600DB90F" Ref="J?"  Part="1" 
+AR Path="/5FDF536B/600DB90F" Ref="J?"  Part="1" 
+AR Path="/5FED72BB/600DB90F" Ref="J?"  Part="1" 
+AR Path="/600508A4/600DB90F" Ref="J9"  Part="1" 
+F 0 "J9" H 4000 5000 50  0000 C CNN
+F 1 "JST_PH3" H 3900 4900 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3750 4700 50  0001 C CNN
+F 3 "~" H 3750 4700 50  0001 C CNN
+	1    3750 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 600DB916
+P 4250 5050
+F 0 "R26" H 4320 5096 50  0000 L CNN
+F 1 "22K" H 4320 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 5050 50  0001 C CNN
+F 3 "~" H 4250 5050 50  0001 C CNN
+	1    4250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR088
+U 1 1 600DB923
+P 4250 5200
+F 0 "#PWR088" H 4250 4950 50  0001 C CNN
+F 1 "GND" H 4255 5027 50  0000 C CNN
+F 2 "" H 4250 5200 50  0001 C CNN
+F 3 "" H 4250 5200 50  0001 C CNN
+	1    4250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 600DB929
+P 3950 4800
+F 0 "#PWR086" H 3950 4550 50  0001 C CNN
+F 1 "GND" H 3955 4627 50  0000 C CNN
+F 2 "" H 3950 4800 50  0001 C CNN
+F 3 "" H 3950 4800 50  0001 C CNN
+	1    3950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR090
+U 1 1 600DB92F
+P 4850 4900
+F 0 "#PWR090" H 4850 4650 50  0001 C CNN
+F 1 "GND" H 4855 4727 50  0000 C CNN
+F 2 "" H 4850 4900 50  0001 C CNN
+F 3 "" H 4850 4900 50  0001 C CNN
+	1    4850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR085
+U 1 1 600DB935
+P 3950 4600
+F 0 "#PWR085" H 3950 4450 50  0001 C CNN
+F 1 "+24V" H 3965 4773 50  0000 C CNN
+F 2 "" H 3950 4600 50  0001 C CNN
+F 3 "" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4950 4700 2    50   Output ~ 0
+IN2
+$Comp
+L Device:LED D?
+U 1 1 600DB942
+P 4100 4700
+AR Path="/600DB942" Ref="D?"  Part="1" 
+AR Path="/5FDF536B/600DB942" Ref="D?"  Part="1" 
+AR Path="/5FED72BB/600DB942" Ref="D?"  Part="1" 
+AR Path="/600508A4/600DB942" Ref="D16"  Part="1" 
+F 0 "D16" H 4180 4610 50  0000 R CNN
+F 1 "G" H 4180 4540 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4100 4700 50  0001 C CNN
+F 3 "~" H 4100 4700 50  0001 C CNN
+	1    4100 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 600DE883
+P 7650 4200
+F 0 "R32" H 7720 4246 50  0000 L CNN
+F 1 "22K" H 7720 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 4200 50  0001 C CNN
+F 3 "~" H 7650 4200 50  0001 C CNN
+	1    7650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 600E1470
+P 7650 4500
+AR Path="/600E1470" Ref="D?"  Part="1" 
+AR Path="/5FDF536B/600E1470" Ref="D?"  Part="1" 
+AR Path="/5FED72BB/600E1470" Ref="D?"  Part="1" 
+AR Path="/600508A4/600E1470" Ref="D18"  Part="1" 
+F 0 "D18" V 7689 4383 50  0000 R CNN
+F 1 "G" V 7598 4383 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7650 4500 50  0001 C CNN
+F 3 "~" H 7650 4500 50  0001 C CNN
+	1    7650 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 4050 7650 4050
+Wire Wire Line
+	7650 4650 7150 4650
+Connection ~ 7150 4650
+Wire Wire Line
+	7050 4650 7150 4650
+Wire Wire Line
+	7150 4050 7150 4300
+Wire Wire Line
+	7650 4650 8050 4650
+Wire Wire Line
+	8050 4650 8050 4500
+Connection ~ 7650 4650
+Wire Wire Line
+	8050 4200 8050 4050
+Wire Wire Line
+	8050 4050 7650 4050
+Connection ~ 7650 4050
+$Comp
+L Isolator:TLP291-4 U11
+U 3 1 6014FE84
+P 6700 3500
+F 0 "U11" H 6700 3825 50  0000 C CNN
+F 1 "TLP291-4" H 6700 3734 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 6500 3300 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4" H 6700 3500 50  0001 L CNN
+	3    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 6014FE8A
+P 7300 3050
+AR Path="/5FED71EE/6014FE8A" Ref="J?"  Part="1" 
+AR Path="/600508A4/6014FE8A" Ref="J10"  Part="1" 
+F 0 "J10" H 7450 3150 50  0000 R CNN
+F 1 "JST_PH2" H 7450 2850 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148WS D19
+U 1 1 6014FE90
+P 8000 3100
+F 0 "D19" V 8000 3200 50  0000 L CNN
+F 1 "1N5819" V 8100 3200 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8000 2925 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85751/1n4148ws.pdf" H 8000 3100 50  0001 C CNN
+	1    8000 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3400 7100 3150
+$Comp
+L power:GND #PWR095
+U 1 1 6014FE9D
+P 7000 3600
+F 0 "#PWR095" H 7000 3350 50  0001 C CNN
+F 1 "GND" H 7005 3427 50  0000 C CNN
+F 2 "" H 7000 3600 50  0001 C CNN
+F 3 "" H 7000 3600 50  0001 C CNN
+	1    7000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 6014FEA3
+P 6250 3600
+F 0 "R29" V 6350 3500 50  0000 L CNN
+F 1 "100R" V 6450 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 3600 50  0001 C CNN
+F 3 "~" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	0    1    1    0   
+$EndComp
+Text HLabel 6100 3600 0    50   Input ~ 0
+OUT1
+$Comp
+L Device:R R31
+U 1 1 6014FEB0
+P 7600 2950
+F 0 "R31" H 7670 2996 50  0000 L CNN
+F 1 "22K" H 7670 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 2950 50  0001 C CNN
+F 3 "~" H 7600 2950 50  0001 C CNN
+	1    7600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6014FEB6
+P 7600 3250
+AR Path="/6014FEB6" Ref="D?"  Part="1" 
+AR Path="/5FDF536B/6014FEB6" Ref="D?"  Part="1" 
+AR Path="/5FED72BB/6014FEB6" Ref="D?"  Part="1" 
+AR Path="/600508A4/6014FEB6" Ref="D17"  Part="1" 
+F 0 "D17" V 7639 3133 50  0000 R CNN
+F 1 "G" V 7548 3133 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 3250 50  0001 C CNN
+F 3 "~" H 7600 3250 50  0001 C CNN
+	1    7600 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2800 7600 2800
+Wire Wire Line
+	7600 3400 7100 3400
+Connection ~ 7100 3400
+Wire Wire Line
+	7000 3400 7100 3400
+Wire Wire Line
+	7100 2800 7100 3050
+Wire Wire Line
+	7600 3400 8000 3400
+Wire Wire Line
+	8000 3400 8000 3250
+Connection ~ 7600 3400
+Wire Wire Line
+	8000 2950 8000 2800
+Wire Wire Line
+	8000 2800 7600 2800
+Connection ~ 7600 2800
+Text Notes 6100 5550 0    50   ~ 0
+Low-side switch I_max = 40mA
+$Comp
+L power:+24V #PWR098
+U 1 1 601770DE
+P 7650 4050
+F 0 "#PWR098" H 7650 3900 50  0001 C CNN
+F 1 "+24V" H 7665 4223 50  0000 C CNN
+F 2 "" H 7650 4050 50  0001 C CNN
+F 3 "" H 7650 4050 50  0001 C CNN
+	1    7650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR097
+U 1 1 60179354
+P 7600 2800
+F 0 "#PWR097" H 7600 2650 50  0001 C CNN
+F 1 "+24V" H 7615 2973 50  0000 C CNN
+F 2 "" H 7600 2800 50  0001 C CNN
+F 3 "" H 7600 2800 50  0001 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR083
+U 1 1 6009143C
+P 3950 3200
+F 0 "#PWR083" H 3950 3050 50  0001 C CNN
+F 1 "+24V" H 3965 3373 50  0000 C CNN
+F 2 "" H 3950 3200 50  0001 C CNN
+F 3 "" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L AbsoluteEncoderBoard-cache:+3.3V #PWR093
+U 1 1 605EDA14
+P 6100 3400
+F 0 "#PWR093" H 6100 3250 50  0001 C CNN
+F 1 "+3.3V" H 6115 3573 50  0000 C CNN
+F 2 "" H 6100 3400 50  0001 C CNN
+F 3 "" H 6100 3400 50  0001 C CNN
+	1    6100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AbsoluteEncoderBoard-cache:+3.3V #PWR094
+U 1 1 605EE1B1
+P 6150 4650
+F 0 "#PWR094" H 6150 4500 50  0001 C CNN
+F 1 "+3.3V" H 6165 4823 50  0000 C CNN
+F 2 "" H 6150 4650 50  0001 C CNN
+F 3 "" H 6150 4650 50  0001 C CNN
+	1    6150 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3400 6400 3400
+Wire Wire Line
+	6150 4650 6450 4650
+Wire Wire Line
+	4850 3300 4950 3300
+Wire Wire Line
+	4850 4700 4950 4700
+$EndSCHEMATC
