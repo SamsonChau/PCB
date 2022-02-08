@@ -1773,7 +1773,7 @@
     (uuid 3afa7e82-7e83-4f38-97e3-319360eebda5)
     (property "Reference" "J2" (id 0) (at 55.245 151.13 0))
     (property "Value" "molex_3.0" (id 1) (at 55.245 153.67 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal" (id 2) (at 53.975 157.48 0)
+    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" (id 2) (at 53.975 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 53.975 157.48 0)
@@ -2068,7 +2068,7 @@
     (uuid 96cfb7bc-c878-46b6-a8e6-c7106d2d2c92)
     (property "Reference" "J1" (id 0) (at 54.61 165.1 0))
     (property "Value" "molex_3.0" (id 1) (at 54.61 167.64 0))
-    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal" (id 2) (at 53.34 171.45 0)
+    (property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal" (id 2) (at 53.34 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 53.34 171.45 0)
@@ -2483,10 +2483,10 @@
       (reference "D1") (unit 1) (value "power") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/96cfb7bc-c878-46b6-a8e6-c7106d2d2c92"
-      (reference "J1") (unit 1) (value "molex_3.0") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal")
+      (reference "J1") (unit 1) (value "molex_3.0") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal")
     )
     (path "/3afa7e82-7e83-4f38-97e3-319360eebda5"
-      (reference "J2") (unit 1) (value "molex_3.0") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal")
+      (reference "J2") (unit 1) (value "molex_3.0") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal")
     )
     (path "/ee5bdd7e-81f3-4469-a2fa-4ddabc48417d"
       (reference "J5") (unit 1) (value "jumper") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
