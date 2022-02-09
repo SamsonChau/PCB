@@ -388,10 +388,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN_BUS",
-        "nets": [
-          "/CAN_N",
-          "/CAN_P"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
