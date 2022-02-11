@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/samsonchau/Kicad/PCB/XT60_CAN/XT60_CAN.kicad_sch</source>
+    <date>Fri Feb 11 11:03:08 2022</date>
+    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>XT60_CAN.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10v 100uF</value>
+      <footprint>Capacitor_SMD:C_Elec_5x5.4</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e525ada-4fbe-40b1-a7b5-330e9dd01f09</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>16v 220uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80e54046-38dd-4366-a399-3352771c09ed</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>25v 100uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b5b5cdf-2fe8-4972-8620-8ea4c186ceef</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>50v 47uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6674771-6e1a-42fa-b47f-afa9800af143</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>50v 47uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e90632be-f305-489d-b74e-5a8e094b0dc1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>50v 47uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70e6d520-4aca-4472-a326-8e7c072d4669</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SMBJ5CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18192bb7-19e1-41aa-8c92-3cf85efb57ad</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ9CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef34ee25-f1fb-421a-912f-a7ed7c00fb60</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SMBJ12CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8337d616-8a5e-4839-b948-126b103f17af</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SMBJ24CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34436f86-7766-453b-97f3-13bdf7fa87d2</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>5v_led</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6f53c40-552e-4075-b7ca-a84cff135ac9</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>9v_led</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>639a6051-cd73-407e-b60f-12c3caecf779</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>12v_led</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c26ab8c0-4d5e-42b3-bf80-ef7815ac8f93</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea0c6f48-a203-4e8e-967c-bd7acf9c20a0</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ee95c34-dbee-486a-9bc8-b9ffbf032bf5</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7b6756a-d291-4761-9c4b-4f2c6bab6d07</tstamps>
+    </comp>
+    <comp ref="F4">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1f5dbe4-d66e-4e26-be2b-62f3bc80c54d</tstamps>
+    </comp>
+    <comp ref="F5">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92443956-9969-4a14-bdfa-61c54a686fe8</tstamps>
+    </comp>
+    <comp ref="F6">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6034c2c-2611-447a-a5a0-50a54fa4c678</tstamps>
+    </comp>
+    <comp ref="F7">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a2a9055-b7a0-4475-ae90-6830aeae6af2</tstamps>
+    </comp>
+    <comp ref="F8">
+      <value>3557-2</value>
+      <footprint>PolyuRobotics:FUSE_3557-2</footprint>
+      <fields>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <libsource lib="PolyuRobotics" part="3557-2" description=""/>
+      <property name="MANUFACTURER" value="KEYSTONE"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2044d208-7f41-4af7-97a2-547985301345</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>XT60_IN</value>
+      <footprint>Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77c1988d-bee9-4eab-bbe2-68f624cd08a8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>XT60_CH1</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ed70811-c8d4-4de3-9055-2b61827964a3</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>+9V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e946baa-12a8-493a-940d-1424741be66c</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>+12V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71a6a275-8d4d-4646-9b29-6c9c19148269</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>+9V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e60e6da6-0cb3-48f6-a748-0a444b5a93fc</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>+12V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a976840a-ef48-40f6-b76c-f509de46be72</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>XT60_CH2</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9499fb20-257a-42d7-a7af-4b9f6647a7fa</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>XT60_CH3</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ab770d1-2567-45a8-afab-8df6b725b825</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>XT60_CH4</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f9846810-4cbb-427f-8639-f3bc3c965923</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>XT60_CH5</value>
+      <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2edb813-c9b9-4b88-8859-0f202cac2525</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>+5V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c6af3f-b883-4477-a46e-1fe5efe572a7</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>+5V</value>
+      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
+      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5937a0cf-7a16-49ec-9571-7084d4fe8c95</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55c262b5-a146-43d2-acf5-4a3aef030031</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a46ee09b-fcdb-4438-b293-f16983eb3ccb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5099ddb-2db5-4532-85a7-3700d236c2ae</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MP1584</value>
+      <footprint>PolyuRobotics:DC-DC-mp1584_module</footprint>
+      <libsource lib="PolyuRobotics" part="MP1584" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>078fc015-a64a-4a03-89c9-c8bbc0de83b8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MP1584</value>
+      <footprint>PolyuRobotics:DC-DC-mp1584_module</footprint>
+      <libsource lib="PolyuRobotics" part="MP1584" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37d0b78e-5e3c-4e70-8257-02fe4d58dcfd</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MP1584</value>
+      <footprint>PolyuRobotics:DC-DC-mp1584_module</footprint>
+      <libsource lib="PolyuRobotics" part="MP1584" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58d8522d-84ed-4982-9d69-fa59d9757073</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small">
+      <description>Light emitting diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Generic_Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PolyuRobotics" part="3557-2">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">3557-2</field>
+        <field name="Footprint">PolyuRobotics:FUSE_3557-2</field>
+        <field name="MANUFACTURER">KEYSTONE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PolyuRobotics" part="MP1584">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP1584</field>
+        <field name="Footprint">PolyuRobotics:DC-DC-mp1584_module</field>
+      </fields>
+      <pins>
+        <pin num="IN1+" name="VIN+" type="input"/>
+        <pin num="IN1-" name="VIN-" type="input"/>
+        <pin num="IN2+" name="VIN+" type="input"/>
+        <pin num="IN2-" name="VIN-" type="input"/>
+        <pin num="OUT1+" name="VOUT+" type="output"/>
+        <pin num="OUT1-" name="VOUT-" type="output"/>
+        <pin num="OUT2+" name="VOUT+" type="output"/>
+        <pin num="OUT2-" name="VOUT-" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MP1584 Stepdown converter-cache">
+      <uri>/home/samsonchau/git/MP1584-Stepdown-converter-reversed-engineerd-module/KiCAD - MP1584 Stepdown converter/MP1584 Stepdown converter-cache.lib</uri>
+    </library>
+    <library logical="PolyuRobotics">
+      <uri>/home/samsonchau/Kicad/PCB/kicad_lib/Symbol/PolyuRobotics/PolyuRobotics.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
+      <node ref="U3" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
+    </net>
+    <net code="2" name="+9V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
+      <node ref="U1" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
+      <node ref="U2" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
+    </net>
+    <net code="4" name="+24V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="F7" pin="2" pintype="passive"/>
+      <node ref="F8" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="GNDPWR">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="IN1-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U1" pin="IN2-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U1" pin="OUT1-" pinfunction="VOUT-" pintype="output"/>
+      <node ref="U1" pin="OUT2-" pinfunction="VOUT-" pintype="output"/>
+      <node ref="U2" pin="IN1-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U2" pin="IN2-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U2" pin="OUT1-" pinfunction="VOUT-" pintype="output"/>
+      <node ref="U2" pin="OUT2-" pinfunction="VOUT-" pintype="output"/>
+      <node ref="U3" pin="IN1-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U3" pin="IN2-" pinfunction="VIN-" pintype="input"/>
+      <node ref="U3" pin="OUT1-" pinfunction="VOUT-" pintype="output"/>
+      <node ref="U3" pin="OUT2-" pinfunction="VOUT-" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="IN1+" pinfunction="VIN+" pintype="input"/>
+      <node ref="U3" pin="IN2+" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(F2-Pad1)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="IN1+" pinfunction="VIN+" pintype="input"/>
+      <node ref="U1" pin="IN2+" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="IN1+" pinfunction="VIN+" pintype="input"/>
+      <node ref="U2" pin="IN2+" pinfunction="VIN+" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(F4-Pad1)">
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(F5-Pad1)">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(F6-Pad1)">
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(F7-Pad1)">
+      <node ref="F7" pin="1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(F8-Pad1)">
+      <node ref="F8" pin="1" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(F1-Pad4)">
+      <node ref="F1" pin="4" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(F2-Pad2)">
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(F2-Pad4)">
+      <node ref="F2" pin="4" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(F3-Pad2)">
+      <node ref="F3" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(F3-Pad4)">
+      <node ref="F3" pin="4" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(F4-Pad2)">
+      <node ref="F4" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(F4-Pad4)">
+      <node ref="F4" pin="4" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(F5-Pad2)">
+      <node ref="F5" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(F5-Pad4)">
+      <node ref="F5" pin="4" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(F6-Pad2)">
+      <node ref="F6" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(F6-Pad4)">
+      <node ref="F6" pin="4" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(F7-Pad2)">
+      <node ref="F7" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(F7-Pad4)">
+      <node ref="F7" pin="4" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(F8-Pad2)">
+      <node ref="F8" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(F8-Pad4)">
+      <node ref="F8" pin="4" pintype="passive"/>
+    </net>
+  </nets>
+</export>
