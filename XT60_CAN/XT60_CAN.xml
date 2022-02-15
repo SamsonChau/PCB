@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/samsonchau/Kicad/PCB/XT60_CAN/XT60_CAN.kicad_sch</source>
-    <date>Fri Feb 11 11:03:08 2022</date>
-    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu18.04.1</tool>
+    <date>Tue Feb 15 17:16:35 2022</date>
+    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -264,40 +264,49 @@
       <tstamps>4ed70811-c8d4-4de3-9055-2b61827964a3</tstamps>
     </comp>
     <comp ref="J3">
-      <value>+9V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <value>+5v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3e946baa-12a8-493a-940d-1424741be66c</tstamps>
+      <tstamps>bddec3db-8673-4866-9549-a142b1e8a83c</tstamps>
     </comp>
     <comp ref="J4">
-      <value>+12V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <value>+9v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>71a6a275-8d4d-4646-9b29-6c9c19148269</tstamps>
+      <tstamps>9be008b9-47cd-4880-9c07-5522eb0c5495</tstamps>
     </comp>
     <comp ref="J5">
-      <value>+9V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <value>+12v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e60e6da6-0cb3-48f6-a748-0a444b5a93fc</tstamps>
+      <tstamps>b743f018-1cb1-4dfa-b0fc-43a6feeb2b6d</tstamps>
     </comp>
     <comp ref="J6">
-      <value>+12V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
+      <value>+5v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a976840a-ef48-40f6-b76c-f509de46be72</tstamps>
+      <tstamps>a9674418-aed9-4caa-99a9-d883e64673c6</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>+9v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>254bf983-7e38-4a82-bc20-e57fd1a1abde</tstamps>
     </comp>
     <comp ref="J8">
       <value>XT60_CH2</value>
@@ -317,6 +326,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4ab770d1-2567-45a8-afab-8df6b725b825</tstamps>
     </comp>
+    <comp ref="J10">
+      <value>+12v</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c607d089-c3ec-42d8-84a4-db012f72ea04</tstamps>
+    </comp>
     <comp ref="J15">
       <value>XT60_CH4</value>
       <footprint>Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical</footprint>
@@ -334,24 +352,6 @@
       <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c2edb813-c9b9-4b88-8859-0f202cac2525</tstamps>
-    </comp>
-    <comp ref="J19">
-      <value>+5V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e3c6af3f-b883-4477-a46e-1fe5efe572a7</tstamps>
-    </comp>
-    <comp ref="J20">
-      <value>+5V</value>
-      <footprint>Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical</footprint>
-      <libsource lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="XT60_CAN.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5937a0cf-7a16-49ec-9571-7084d4fe8c95</tstamps>
     </comp>
     <comp ref="R1">
       <value>10k</value>
@@ -441,6 +441,22 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -510,19 +526,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MP1584 Stepdown converter-cache" part="Connector_Generic_Conn_01x02">
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Connector_Generic_Conn_01x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="PolyuRobotics" part="3557-2">
       <fields>
         <field name="Reference">F</field>
@@ -561,9 +564,6 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="MP1584 Stepdown converter-cache">
-      <uri>/home/samsonchau/git/MP1584-Stepdown-converter-reversed-engineerd-module/KiCAD - MP1584 Stepdown converter/MP1584 Stepdown converter-cache.lib</uri>
-    </library>
     <library logical="PolyuRobotics">
       <uri>/home/samsonchau/Kicad/PCB/kicad_lib/Symbol/PolyuRobotics/PolyuRobotics.kicad_sym</uri>
     </library>
@@ -572,8 +572,8 @@
     <net code="1" name="+5V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U3" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
       <node ref="U3" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
@@ -581,8 +581,8 @@
     <net code="2" name="+9V">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
       <node ref="U1" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
@@ -590,8 +590,8 @@
     <net code="3" name="+12V">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="OUT1+" pinfunction="VOUT+" pintype="output"/>
       <node ref="U2" pin="OUT2+" pinfunction="VOUT+" pintype="output"/>
@@ -625,12 +625,12 @@
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="6" name="GNDPWR">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
