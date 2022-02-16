@@ -1,6 +1,6 @@
 "Source:","/home/samsonchau/Kicad/PCB/Nucleo_F446_power_can_shield/Nucleo_F446_power_can_shield.kicad_sch"
-"Date:","Fri Feb 11 11:04:06 2022"
-"Tool:","Eeschema 6.0.1-79c1e3a40b~116~ubuntu18.04.1"
+"Date:","Wed Feb 16 09:14:44 2022"
+"Tool:","Eeschema 6.0.2-378541a8eb~116~ubuntu18.04.1"
 "Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py"
 "Component Count:","50"
 "Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"

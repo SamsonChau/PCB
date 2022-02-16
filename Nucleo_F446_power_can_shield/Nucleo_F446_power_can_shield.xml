@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/samsonchau/Kicad/PCB/Nucleo_F446_power_can_shield/Nucleo_F446_power_can_shield.kicad_sch</source>
-    <date>Fri Feb 11 11:04:06 2022</date>
-    <tool>Eeschema 6.0.1-79c1e3a40b~116~ubuntu18.04.1</tool>
+    <date>Wed Feb 16 09:14:44 2022</date>
+    <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
