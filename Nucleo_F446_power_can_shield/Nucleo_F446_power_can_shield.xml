@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/samsonchau/Kicad/PCB/Nucleo_F446_power_can_shield/Nucleo_F446_power_can_shield.kicad_sch</source>
-    <date>Wed Feb 16 09:14:44 2022</date>
+    <date>Mon Feb 21 15:29:51 2022</date>
     <tool>Eeschema 6.0.2-378541a8eb~116~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -107,7 +107,7 @@
     </comp>
     <comp ref="D6">
       <value>ss24</value>
-      <footprint>Diode_SMD:D_SMB-SMC_Universal_Handsoldering</footprint>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
       <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Nucleo_F446_power_can_shield.kicad_sch"/>
@@ -116,7 +116,7 @@
     </comp>
     <comp ref="D7">
       <value>SMBJ24CA</value>
-      <footprint>Diode_SMD:D_SMB-SMC_Universal_Handsoldering</footprint>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
       <libsource lib="" part="D_Schottky_2" description="Schottky diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Nucleo_F446_power_can_shield.kicad_sch"/>
@@ -125,7 +125,7 @@
     </comp>
     <comp ref="D8">
       <value>SMBJ9VCA</value>
-      <footprint>Diode_SMD:D_SMB-SMC_Universal_Handsoldering</footprint>
+      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
       <libsource lib="" part="D_Schottky_1" description="Schottky diode"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Nucleo_F446_power_can_shield.kicad_sch"/>

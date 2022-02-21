@@ -2771,7 +2771,7 @@
     (uuid 2e591c2a-ca64-4531-bdf1-e4476f71d798)
     (property "Reference" "D6" (id 0) (at 219.7735 44.45 0))
     (property "Value" "ss24" (id 1) (at 219.7735 46.99 0))
-    (property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" (id 2) (at 219.456 50.8 0)
+    (property "Footprint" "Diode_SMD:D_SMB_Handsoldering" (id 2) (at 219.456 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 219.456 50.8 0)
@@ -3380,7 +3380,7 @@
     (property "Value" "SMBJ9VCA" (id 1) (at 243.205 76.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" (id 2) (at 237.49 77.47 0)
+    (property "Footprint" "Diode_SMD:D_SMB_Handsoldering" (id 2) (at 237.49 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 241.3 77.47 0)
@@ -3597,7 +3597,7 @@
     (property "Value" "SMBJ24CA" (id 1) (at 232.41 28.575 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SMB-SMC_Universal_Handsoldering" (id 2) (at 230.505 29.845 0)
+    (property "Footprint" "Diode_SMD:D_SMB_Handsoldering" (id 2) (at 230.505 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 230.505 29.845 0)
@@ -4630,13 +4630,13 @@
       (reference "D5") (unit 1) (value "can_led") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/2e591c2a-ca64-4531-bdf1-e4476f71d798"
-      (reference "D6") (unit 1) (value "ss24") (footprint "Diode_SMD:D_SMB-SMC_Universal_Handsoldering")
+      (reference "D6") (unit 1) (value "ss24") (footprint "Diode_SMD:D_SMB_Handsoldering")
     )
     (path "/a59125f3-ac20-46be-a7ff-41c20858c454"
-      (reference "D7") (unit 1) (value "SMBJ24CA") (footprint "Diode_SMD:D_SMB-SMC_Universal_Handsoldering")
+      (reference "D7") (unit 1) (value "SMBJ24CA") (footprint "Diode_SMD:D_SMB_Handsoldering")
     )
     (path "/896f4657-f42f-4d04-aefd-2a0b33a5b453"
-      (reference "D8") (unit 1) (value "SMBJ9VCA") (footprint "Diode_SMD:D_SMB-SMC_Universal_Handsoldering")
+      (reference "D8") (unit 1) (value "SMBJ9VCA") (footprint "Diode_SMD:D_SMB_Handsoldering")
     )
     (path "/7da26a16-756d-42bb-b6f2-401c9b58e7f5"
       (reference "J1") (unit 1) (value "ISOCAN1") (footprint "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal")
