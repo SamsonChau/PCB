@@ -1,11 +1,11 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.2-378541a8eb~116~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2022-02-21T15:39:08+08:00*
+G04 #@! TF.CreationDate,2022-02-22T15:18:20+08:00*
 G04 #@! TF.ProjectId,arduino_can_bus_shield,61726475-696e-46f5-9f63-616e5f627573,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.2-378541a8eb~116~ubuntu18.04.1) date 2022-02-21 15:39:08*
+G04 Created by KiCad (PCBNEW 6.0.2-378541a8eb~116~ubuntu18.04.1) date 2022-02-22 15:18:20*
 %MOMM*%
 %LPD*%
 G01*
