@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "solenoid_board.kicad_pro",
+    "filename": "POSv2-card.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -316,23 +316,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
-    ],
-    [
-      "dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca",
-      "24_out_GPIO"
-    ],
-    [
-      "6ff89fb6-e4e7-4933-9e25-6a58ab590d3d",
-      "24_in_GPIO"
-    ],
-    [
-      "81732603-b1ba-4e1d-9620-deb43eddc356",
-      "MCU"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
