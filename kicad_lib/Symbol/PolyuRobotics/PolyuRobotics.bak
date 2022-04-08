@@ -45,7 +45,7 @@
     (property "Value" "AOD4184A" (id 1) (at -8.89 -7.62 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "DPAK228P994X240-4N" (id 2) (at 0 0 0)
+    (property "Footprint" "PolyuRobotics:DPAK228P994X240-4N" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
@@ -62,9 +62,6 @@
     )
     (property "STANDARD" "IPC-7351B" (id 7) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
-    )
-    (property "ki_locked" "" (id 8) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
     )
     (symbol "AOD4184A_0_0"
       (polyline

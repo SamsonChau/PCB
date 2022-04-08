@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "Anti-Spark-rescue")(type "Legacy")(uri "/home/samsonchau/git/High-Side-NMOS-Antispark-Switch/Anti-Spark-rescue.lib")(options "")(descr ""))
+  (lib (name "sparkparts")(type "Legacy")(uri "/home/samsonchau/Kicad/Anti-Spark_Switch/sparkparts.lib")(options "")(descr ""))
+  (lib (name "Anti-Spark-Switch-rescue")(type "Legacy")(uri "/home/samsonchau/Kicad/Anti-Spark_Switch/Anti-Spark-Switch-rescue.lib")(options "")(descr ""))
+)
