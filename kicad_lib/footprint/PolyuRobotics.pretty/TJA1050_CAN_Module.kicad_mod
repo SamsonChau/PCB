@@ -45,4 +45,9 @@
   (pad "4" thru_hole circle (at -9.144 3.556) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 4ef6827d-0df8-41d0-8871-f9f7f080cd42))
   (pad "5" thru_hole circle (at 9.8552 -1.5748) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp fbdb43a0-67a9-4ebc-b42f-bb3f2884144c))
   (pad "6" thru_hole circle (at 9.8552 1.0668) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask) (tstamp 6bcca023-5ac7-492f-868a-c7e55522fcc6))
+  (model "/home/samsonchau/Kicad/PCB/kicad_lib/3d_shape/TJA1050.STEP"
+    (offset (xyz 0.4 0.25 2.5))
+    (scale (xyz 1.069 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

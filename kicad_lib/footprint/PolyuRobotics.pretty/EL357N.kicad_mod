@@ -20,4 +20,9 @@
   (pad "2" smd roundrect (at -2.794 1.524) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 66cc4ddc-a52d-4ad7-986e-68f000539802))
   (pad "3" smd roundrect (at 2.794 1.524) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 85ec87eb-bb51-43f3-adf5-d04ca264762d))
   (pad "4" smd roundrect (at 2.794 -1.016) (size 1.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6579642b-a152-47f7-af0e-0d8866bdfcb8))
+  (model "/home/samsonchau/Kicad/PCB/kicad_lib/3d_shape/4_PIN_SOP.STEP"
+    (offset (xyz 0 -0.25 1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
