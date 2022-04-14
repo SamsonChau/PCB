@@ -450,7 +450,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Nucleo_F446_power_can_shield.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
