@@ -5,92 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Barrel_Jack_MountingPin" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at 0 5.334 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Barrel_Jack_MountingPin" (id 1) (at 1.27 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (id 2) (at 1.27 -1.016 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 1.27 -1.016 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "DC power barrel jack connector" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "DC Barrel Jack with a mounting pin" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "BarrelJack*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Barrel_Jack_MountingPin_0_1"
-        (rectangle (start -5.08 3.81) (end 5.08 -3.81)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (arc (start -3.302 3.175) (mid -3.937 2.54) (end -3.302 1.905)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -3.302 3.175) (mid -3.937 2.54) (end -3.302 1.905)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 5.08 2.54)
-            (xy 3.81 2.54)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 -2.54)
-            (xy -2.54 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -2.54)
-            (xy 2.54 -2.54)
-            (xy 5.08 -2.54)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start 3.683 3.175) (end -3.302 1.905)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-      )
-      (symbol "Barrel_Jack_MountingPin_1_1"
-        (polyline
-          (pts
-            (xy -1.016 -4.572)
-            (xy 1.016 -4.572)
-          )
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (text "Mounting" (at 0 -4.191 0)
-          (effects (font (size 0.381 0.381)))
-        )
-        (pin passive line (at 7.62 2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 7.62 -2.54 180) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -7.62 90) (length 3.048)
-          (name "MountPin" (effects (font (size 1.27 1.27))))
-          (number "MP" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -791,22 +705,6 @@
     )
   )
 
-  (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 130.175 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 299ed31b-8320-42e3-a997-78990b515eff)
-    (property "Reference" "J20" (id 0) (at 130.175 97.155 0))
-    (property "Value" "5V in" (id 1) (at 130.175 99.695 0))
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal" (id 2) (at 131.445 107.696 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 131.445 107.696 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 96f4b525-44cb-47ae-85ba-1452b6ebe244))
-    (pin "2" (uuid be75b37b-9c0e-448c-a8a9-e9c9aa0a3d51))
-    (pin "MP" (uuid 65ca96f5-0030-4115-9542-307a17c83362))
-  )
-
   (symbol (lib_id "power:GNDPWR") (at 125.73 84.455 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 36cad135-112c-4600-939d-93f9eed314a3)
@@ -853,22 +751,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 53a70198-fbdf-4642-baa6-d8e70c3152d4))
-  )
-
-  (symbol (lib_id "power:GND") (at 137.795 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 909b6f57-c767-4999-aebc-a22e874b7f96)
-    (property "Reference" "#PWR0187" (id 0) (at 137.795 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (id 1) (at 137.795 113.665 0))
-    (property "Footprint" "" (id 2) (at 137.795 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 137.795 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid afb159fb-8c78-4f37-8db7-ed0bc3c88627))
   )
 
   (symbol (lib_id "power:+5V") (at 112.395 99.695 0) (unit 1)
@@ -942,39 +824,19 @@
     (pin "9" (uuid 236ab820-0793-4e33-8900-41ec8e572a89))
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 130.81 81.915 0) (unit 1)
+  (symbol (lib_id "Connector_Generic:Conn_01x02") (at 120.65 84.455 180) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ec870b96-a94e-4dc6-9900-ce74b92f8bb5)
-    (property "Reference" "J21" (id 0) (at 133.985 81.9149 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "XT60-M" (id 1) (at 133.985 84.4549 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "PolyuRobotics:XT60PW-M20" (id 2) (at 130.81 81.915 0)
+    (property "Reference" "J21" (id 0) (at 120.65 74.93 0))
+    (property "Value" "XT60-M" (id 1) (at 120.65 77.47 0))
+    (property "Footprint" "" (id 2) (at 120.65 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 130.81 81.915 0)
+    (property "Datasheet" "~" (id 3) (at 120.65 84.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 59e90f16-96b8-49bc-86de-566bbe3dd75d))
     (pin "2" (uuid da502ba4-a51e-4a20-8efb-4020dc3cfdab))
-  )
-
-  (symbol (lib_id "power:+5V") (at 137.795 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f8c7401f-e334-4a21-8966-3cb30a833a3f)
-    (property "Reference" "#PWR0189" (id 0) (at 137.795 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 137.795 98.425 0))
-    (property "Footprint" "" (id 2) (at 137.795 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 137.795 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 22767ef6-5abb-4b94-b3a6-2a41c2a867dc))
   )
 
   (sheet (at 107.315 24.765) (size 34.29 33.02) (fields_autoplaced)
@@ -1023,11 +885,20 @@
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/019e895d-0118-4fdd-9095-2b746446211a"
       (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/e80b2b35-b6c0-4d41-bba7-6bc814b6444d"
+      (reference "#PWR0106") (unit 1) (value "+24V") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/4b355d96-1c0b-4ff4-91f0-4fd5a7144671"
+      (reference "#PWR0107") (unit 1) (value "+24V") (footprint "")
+    )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/a699054f-e794-4026-95df-b546858c36d7"
       (reference "#PWR0108") (unit 1) (value "+5V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/b22acfaf-2983-41f2-8111-960bab537ee3"
       (reference "#PWR0109") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/f5a71fa9-e4d6-4ba5-9e60-1e546211d93a"
+      (reference "#PWR0110") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/498b6f1d-80e5-4a3b-8ba3-0c7a767b2c24"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
@@ -1040,6 +911,9 @@
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/c8ad1f65-67af-4f88-9127-0ca1c400c22e"
       (reference "#PWR0114") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/74ff4524-eb61-4791-972c-bc786077f68d"
+      (reference "#PWR0115") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/af81da96-1b40-4946-89e9-b8f63ae7eb79"
       (reference "#PWR0116") (unit 1) (value "GNDPWR") (footprint "")
@@ -1059,6 +933,9 @@
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/ddc7da9e-41dd-44d6-8923-f9d2102e398c"
       (reference "#PWR0121") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/e1fcac5b-38a3-4e13-9305-7b74c4f4617b"
+      (reference "#PWR0122") (unit 1) (value "+24V") (footprint "")
+    )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/4b20ccc5-c858-414e-960c-dfde9d9620ce"
       (reference "#PWR0123") (unit 1) (value "+5V") (footprint "")
     )
@@ -1076,6 +953,9 @@
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/37e89a89-deef-44d7-aef1-0e7ee8e4b371"
       (reference "#PWR0128") (unit 1) (value "GNDPWR") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/89bfb9bf-45dd-43c5-b761-f525139d48ba"
+      (reference "#PWR0129") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/52132b2c-213b-41b0-90b0-689d8f5877e9"
       (reference "#PWR0130") (unit 1) (value "GNDPWR") (footprint "")
@@ -1104,8 +984,14 @@
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/0ab8b17e-4935-4e7c-bac1-e1bd4f4810a6"
       (reference "#PWR0138") (unit 1) (value "GNDPWR") (footprint "")
     )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/d22ab3b3-7dd4-44ab-ab4f-363a34dc95db"
+      (reference "#PWR0139") (unit 1) (value "+24V") (footprint "")
+    )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/6c3f638b-cb14-4517-868e-6007fa9a3c7b"
       (reference "#PWR0140") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/b594805f-074a-41d9-8a5f-b9d922339e49"
+      (reference "#PWR0141") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/77e21c41-6018-4d2d-81a0-9796cd954bd0"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
@@ -1116,8 +1002,14 @@
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/6c970127-00f0-4c2b-9d19-7c22b7191361"
       (reference "#PWR0144") (unit 1) (value "GNDPWR") (footprint "")
     )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/1ac7b23b-fd1b-4663-9f43-9f20e97e49b0"
+      (reference "#PWR0145") (unit 1) (value "+24V") (footprint "")
+    )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/a637c436-2f2f-42c6-94be-3ebe5d53a5ae"
       (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/2c012b80-b65f-4bc3-9f29-880a981b2dad"
+      (reference "#PWR0147") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/4c008c9c-0b07-41f5-9b43-492542fef116"
       (reference "#PWR0148") (unit 1) (value "GNDPWR") (footprint "")
@@ -1236,44 +1128,8 @@
     (path "/495fbf89-b2c6-4363-a38a-f5ea705c56f2"
       (reference "#PWR0186") (unit 1) (value "+24V") (footprint "")
     )
-    (path "/909b6f57-c767-4999-aebc-a22e874b7f96"
-      (reference "#PWR0187") (unit 1) (value "GND") (footprint "")
-    )
     (path "/36cad135-112c-4600-939d-93f9eed314a3"
       (reference "#PWR0188") (unit 1) (value "GNDPWR") (footprint "")
-    )
-    (path "/f8c7401f-e334-4a21-8966-3cb30a833a3f"
-      (reference "#PWR0189") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/1ac7b23b-fd1b-4663-9f43-9f20e97e49b0"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/2c012b80-b65f-4bc3-9f29-880a981b2dad"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/4b355d96-1c0b-4ff4-91f0-4fd5a7144671"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/74ff4524-eb61-4791-972c-bc786077f68d"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/89bfb9bf-45dd-43c5-b761-f525139d48ba"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/b594805f-074a-41d9-8a5f-b9d922339e49"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/d22ab3b3-7dd4-44ab-ab4f-363a34dc95db"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/e1fcac5b-38a3-4e13-9305-7b74c4f4617b"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/e80b2b35-b6c0-4d41-bba7-6bc814b6444d"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
-    )
-    (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/f5a71fa9-e4d6-4ba5-9e60-1e546211d93a"
-      (reference "#PWR?") (unit 1) (value "+24V") (footprint "")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/7279863c-ff9f-41e2-868a-ae542af3f597"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1500,11 +1356,8 @@
     (path "/6ff89fb6-e4e7-4933-9e25-6a58ab590d3d/d5459109-56fe-42e5-9700-0eba49032097"
       (reference "J19") (unit 1) (value "PORT") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal")
     )
-    (path "/299ed31b-8320-42e3-a997-78990b515eff"
-      (reference "J20") (unit 1) (value "5V in") (footprint "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal")
-    )
     (path "/ec870b96-a94e-4dc6-9900-ce74b92f8bb5"
-      (reference "J21") (unit 1) (value "XT60-M") (footprint "PolyuRobotics:XT60PW-M20")
+      (reference "J21") (unit 1) (value "XT60-M") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
     )
     (path "/dd00c030-9b8d-4d40-8d8f-4fd3b5efd5ca/35634533-6645-4c4a-9e5c-2f43c1ab9439"
       (reference "Q1") (unit 1) (value "AOD4184A") (footprint "PolyuRobotics:DPAK228P994X240-4N")
