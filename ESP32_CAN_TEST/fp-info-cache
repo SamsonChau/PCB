@@ -1,4 +1,4 @@
-20414711616531758
+20416365145866970
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74815,6 +74815,13 @@ TJA1050_CAN_Module
 0
 6
 6
+PolyuRobotics
+TQFP32-5MM
+
+
+0
+32
+32
 PolyuRobotics
 XT60PW-M20
 
