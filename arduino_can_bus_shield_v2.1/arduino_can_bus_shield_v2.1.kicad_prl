@@ -1,9 +1,11 @@
 {
   "board": {
-    "active_layer": 41,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -65,7 +67,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Arduino_Uno.kicad_prl",
+    "filename": "arduino_can_bus_shield_v2.1.kicad_prl",
     "version": 3
   },
   "project": {

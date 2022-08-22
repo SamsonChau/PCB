@@ -121,7 +121,9 @@
         0.0,
         0.2,
         0.4,
-        0.6
+        0.6,
+        1.5,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -356,7 +358,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Arduino_Uno.kicad_pro",
+    "filename": "arduino_can_bus_shield_v2.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
