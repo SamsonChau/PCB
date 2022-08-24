@@ -1,7 +1,11 @@
 {
   "board": {
     "active_layer": 0,
+<<<<<<< HEAD
     "active_layer_preset": "All Layers",
+=======
+    "active_layer_preset": "",
+>>>>>>> 1395f798c82ff4e36ccbc1bb56196be5e8c0d0e1
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
